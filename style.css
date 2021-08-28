@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Noto+Serif:400i,700i");
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 14px;
+  font-weight: bolder;
+
+  background-image: url("./image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.411);
+  margin-left: 10vh;
+  margin-right: 10vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  border-radius: 20px;
+}
+
+p {
+  line-height: 150%;
+  padding: 10px 0 0 0;
+}
+
+form {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.option {
+  margin: 5px 10px;
+}
+
+.FormDateInput {
+  width: 40px;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.Announcement {
+  font-family: "Noto Serif", serif;
+  font-size: 15px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.submit-btn {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 15px;
+  background-color: rgb(131, 0, 0);
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
